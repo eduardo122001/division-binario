@@ -42,10 +42,12 @@ int main()
    for(int nb=0;nb<n;nb++){
         ciclo++;
         cout<<"ciclo "<<ciclo<<endl;
+   //hacemos el recorrido a la izquierda
    if(q.test(7)){
    a=a<<1;
    q=q<<1;
    a.set(0);
+
    }else{
         a=a<<1;
         q=q<<1;
